@@ -1,0 +1,44 @@
+body {
+    background-color: #4c6085;
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    color: white;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px;
+}
+  
+.sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid white;
+    font-size: 64px;
+    text-align: center;
+}
+
+.restart-button {
+    width: 100px;
+    height: 100px;
+    background-color: #dc3545;
+    color: white;
+    font-size: 43px;
+    border-radius: 17px;
+    margin-top: 30px;
+}
+
+.hidden {
+    display: none;
+}
+  
